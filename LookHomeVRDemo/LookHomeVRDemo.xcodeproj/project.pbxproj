@@ -13,6 +13,7 @@
 		373866452447ED0500EE47AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373866432447ED0500EE47AF /* Main.storyboard */; };
 		373866472447ED0700EE47AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373866462447ED0700EE47AF /* Assets.xcassets */; };
 		3738664A2447ED0700EE47AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373866482447ED0700EE47AF /* LaunchScreen.storyboard */; };
+		37386656244801D900EE47AF /* LookHouseProject.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 37386655244801D900EE47AF /* LookHouseProject.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		373866462447ED0700EE47AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373866492447ED0700EE47AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3738664B2447ED0700EE47AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37386655244801D900EE47AF /* LookHouseProject.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LookHouseProject.podspec; path = ../LookHouseProject.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		373866312447ED0500EE47AF = {
 			isa = PBXGroup;
 			children = (
+				37386655244801D900EE47AF /* LookHouseProject.podspec */,
 				3738663C2447ED0500EE47AF /* LookHomeVRDemo */,
 				3738663B2447ED0500EE47AF /* Products */,
 			);
@@ -56,6 +59,7 @@
 		3738663C2447ED0500EE47AF /* LookHomeVRDemo */ = {
 			isa = PBXGroup;
 			children = (
+				37386653244801C600EE47AF /* LookHomeModule */,
 				3738663D2447ED0500EE47AF /* AppDelegate.swift */,
 				3738663F2447ED0500EE47AF /* SceneDelegate.swift */,
 				373866412447ED0500EE47AF /* ViewController.swift */,
@@ -65,6 +69,22 @@
 				3738664B2447ED0700EE47AF /* Info.plist */,
 			);
 			path = LookHomeVRDemo;
+			sourceTree = "<group>";
+		};
+		37386653244801C600EE47AF /* LookHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				37386654244801C600EE47AF /* Classes */,
+			);
+			name = LookHomeModule;
+			path = ../../LookHomeModule;
+			sourceTree = "<group>";
+		};
+		37386654244801C600EE47AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37386656244801D900EE47AF /* LookHouseProject.podspec in Resources */,
 				3738664A2447ED0700EE47AF /* LaunchScreen.storyboard in Resources */,
 				373866472447ED0700EE47AF /* Assets.xcassets in Resources */,
 				373866452447ED0500EE47AF /* Main.storyboard in Resources */,
