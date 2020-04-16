@@ -14,6 +14,7 @@
 		373866472447ED0700EE47AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373866462447ED0700EE47AF /* Assets.xcassets */; };
 		3738664A2447ED0700EE47AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373866482447ED0700EE47AF /* LaunchScreen.storyboard */; };
 		37386656244801D900EE47AF /* LookHouseProject.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 37386655244801D900EE47AF /* LookHouseProject.podspec */; };
+		373866582448629100EE47AF /* VRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373866572448629100EE47AF /* VRViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		373866492447ED0700EE47AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3738664B2447ED0700EE47AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37386655244801D900EE47AF /* LookHouseProject.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LookHouseProject.podspec; path = ../LookHouseProject.podspec; sourceTree = "<group>"; };
+		373866572448629100EE47AF /* VRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		37386654244801C600EE47AF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				373866572448629100EE47AF /* VRViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373866582448629100EE47AF /* VRViewController.swift in Sources */,
 				373866422447ED0500EE47AF /* ViewController.swift in Sources */,
 				3738663E2447ED0500EE47AF /* AppDelegate.swift in Sources */,
 				373866402447ED0500EE47AF /* SceneDelegate.swift in Sources */,
