@@ -8,6 +8,9 @@
 
 import UIKit
 
+let NIM_APPKey = "cddbc3dd6381bab804b5909fa3b28a72"
+let NIM_APPSecret = "181711bb9c3d"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

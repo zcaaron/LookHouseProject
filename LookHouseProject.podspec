@@ -6,31 +6,28 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "LookHouseProject"
-  spec.version      = "0.0.1"
-  spec.summary      = "基础组件"
+  s.name         = "LookHouseProject"
+  s.version      = "0.0.1"
+  s.summary      = "基础组件"
 
-  spec.description  = <<-DESC
-                   DESC
+  s.description  = <<-DESC
+  TODO: Add long description of the s.dependency here.
+  DESC
 
-  spec.homepage     = "https://github.com/zcaaron/LookHouseProject"
-
-
-  #spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  s.homepage     = "https://github.com/zcaaron/LookHouseProject"
 
 
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  spec.author             = { "zcaaron" => "fengzhzi@yeah.net" }
+  s.author             = { "zcaaron" => "fengzhzi@yeah.net" }
 
+  s.source       = { :git => "https://github.com/zcaaron/LookHouseProject.git", :tag => "#{s.version}" }
 
-  spec.source       = { :git => "https://github.com/zcaaron/LookHouseProject.git", :tag => "#{spec.version}" }
-
-
-  spec.source_files  = "LookHomeVRDemo/Classes/**/*"
-  #spec.exclude_files = "Classes/Exclude"
+  s.ios.deployment_target = '9.0'
+  s.source_files  = "LookHomeVRDemo/Classes/**/*"
+ 
 
 
 end
